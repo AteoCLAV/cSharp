@@ -3,13 +3,8 @@
 
 1) Общая структура
 
-Laba4
-├── PluginContracts
-│   └── содержит интерфейс-контракт (IReflectivePlugin)
-├── PluginLibrary
-│   └── пример классов, реализующих интерфейс-контракт
-└── Laba2
-    └── Avalonia-приложение: загрузка DLL + рефлексия + динамический UI
+<img width="651" height="192" alt="image" src="https://github.com/user-attachments/assets/6d9134fc-3259-4957-9257-2292ef53171f" />
+
 
 2) Контракт и тестовые классы
 PluginContracts
