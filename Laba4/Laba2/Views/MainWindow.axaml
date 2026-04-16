@@ -1,0 +1,140 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Laba2.ViewModels"
+        x:Class="Laba2.Views.MainWindow"
+        x:DataType="vm:ReflectionMainWindowViewModel"
+        Title="Рефлексия и вызов методов"
+        Width="980"
+        Height="640"
+        WindowStartupLocation="CenterScreen"
+        MinWidth="820"
+        MinHeight="560">
+
+    <Design.DataContext>
+        <vm:ReflectionMainWindowViewModel />
+    </Design.DataContext>
+
+    <Grid Margin="10" RowDefinitions="Auto,*,Auto" ColumnDefinitions="280,*">
+        <!-- Левая панель: список классов -->
+        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+                BorderBrush="Gray"
+                BorderThickness="1"
+                Padding="12"
+                CornerRadius="6"
+                Background="#F5F5F5">
+            <StackPanel>
+                <TextBlock Text="ЗАГРУЗКА DLL" FontWeight="Bold" FontSize="14" Margin="0,0,0,10" />
+
+                <TextBlock Text="Путь к DLL:" Margin="0,0,0,5" />
+                <TextBox Text="{Binding AssemblyPath, Mode=TwoWay}"
+                         Padding="6"
+                         Margin="0,0,0,10"
+                         Watermark="Например: D:\path\PluginLibrary.dll" />
+
+                <Button Content="Загрузить"
+                        Command="{Binding LoadAssemblyCommand}"
+                        Padding="10,6"
+                        Background="LightBlue"
+                        HorizontalAlignment="Stretch" />
+
+                <Separator Margin="0,12,0,12" />
+
+                <TextBlock Text="КЛАССЫ" FontWeight="Bold" FontSize="14" Margin="0,0,0,6" />
+
+                <ListBox ItemsSource="{Binding Plugins}"
+                         SelectedItem="{Binding SelectedPlugin}"
+                         Height="360"
+                         ScrollViewer.VerticalScrollBarVisibility="Auto">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding DisplayName}" TextWrapping="Wrap" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+        </Border>
+
+        <!-- Правая панель: конструктор + метод + параметры -->
+        <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Margin="0,0,0,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Margin="0,0,0,12">
+                <TextBlock Text="ВЫБОР КОНСТРУКТОРА" FontWeight="Bold" FontSize="13" Margin="0,0,0,6" />
+                <ComboBox ItemsSource="{Binding Constructors}"
+                          SelectedItem="{Binding SelectedConstructor}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Signature}" TextWrapping="Wrap" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+
+                <TextBlock Text="Параметры конструктора" Margin="0,10,0,6" />
+                <ItemsControl ItemsSource="{Binding ConstructorParameters}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid ColumnDefinitions="140,*" Margin="0,2,0,2">
+                                <TextBlock Grid.Column="0" Text="{Binding ParameterLabel}" VerticalAlignment="Center" />
+                                <TextBox Grid.Column="1"
+                                         Text="{Binding ValueText, Mode=TwoWay}"
+                                         Watermark="{Binding ParameterTypeName}"
+                                         Padding="5" />
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+
+            <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" Padding="12" CornerRadius="6" Background="White">
+                <StackPanel>
+                    <TextBlock Text="ВЫБОР МЕТОДА" FontWeight="Bold" FontSize="13" Margin="0,0,0,6" />
+                    <ComboBox ItemsSource="{Binding Methods}"
+                              SelectedItem="{Binding SelectedMethod}">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Signature}" TextWrapping="Wrap" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+
+                    <TextBlock Text="Параметры метода" Margin="0,10,0,6" />
+                    <ItemsControl ItemsSource="{Binding MethodParameters}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid ColumnDefinitions="140,*" Margin="0,2,0,2">
+                                    <TextBlock Grid.Column="0" Text="{Binding ParameterLabel}" VerticalAlignment="Center" />
+                                    <TextBox Grid.Column="1"
+                                             Text="{Binding ValueText, Mode=TwoWay}"
+                                             Watermark="{Binding ParameterTypeName}"
+                                             Padding="5" />
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <Button Content="ВЫПОЛНИТЬ"
+                            Command="{Binding ExecuteCommand}"
+                            Padding="12,8"
+                            Background="LightGreen"
+                            HorizontalAlignment="Stretch"
+                            Margin="0,14,0,0" />
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+        <!-- Статус/заметки снизу по всей ширине -->
+        <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                BorderBrush="Gray"
+                BorderThickness="1"
+                Padding="8"
+                CornerRadius="3"
+                Background="#E0E0E0">
+            <TextBlock Text="{Binding StatusMessage}" Foreground="Blue" VerticalAlignment="Center" FontSize="11" />
+        </Border>
+    </Grid>
+</Window>
+

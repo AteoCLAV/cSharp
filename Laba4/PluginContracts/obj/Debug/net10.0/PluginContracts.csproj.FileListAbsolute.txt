@@ -1,0 +1,12 @@
+D:\tasks\cSharp\Laba4\PluginContracts\bin\Debug\net10.0\PluginContracts.deps.json
+D:\tasks\cSharp\Laba4\PluginContracts\bin\Debug\net10.0\PluginContracts.dll
+D:\tasks\cSharp\Laba4\PluginContracts\bin\Debug\net10.0\PluginContracts.pdb
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\PluginContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\PluginContracts.AssemblyInfoInputs.cache
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\PluginContracts.AssemblyInfo.cs
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\PluginContracts.csproj.CoreCompileInputs.cache
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\PluginContracts.sourcelink.json
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\PluginContracts.dll
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\refint\PluginContracts.dll
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\PluginContracts.pdb
+D:\tasks\cSharp\Laba4\PluginContracts\obj\Debug\net10.0\ref\PluginContracts.dll

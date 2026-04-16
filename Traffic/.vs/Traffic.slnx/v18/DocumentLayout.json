@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tasks\\cSharp\\Traffic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\viewmodels\\crosswalkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\viewmodels\\crosswalkviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\models\\trafficlightstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\models\\trafficlightstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\models\\trafficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\models\\trafficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\models\\pedestrian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\models\\pedestrian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\models\\iemergencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\models\\iemergencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\models\\emergencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\models\\emergencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\models\\crosswalkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\models\\crosswalkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|d:\\tasks\\csharp\\traffic\\traffic\\converters\\trafficlightstatetobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5612A84-CB34-CCD8-5FD9-FC83532A9CB4}|Traffic\\Traffic.csproj|solutionrelative:traffic\\converters\\trafficlightstatetobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "Traffic\\ViewLocator.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewLocator.cs",
+              "RelativeToolTip": "Traffic\\ViewLocator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:07:00.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Program.cs",
+              "RelativeDocumentMoniker": "Traffic\\Program.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Program.cs",
+              "RelativeToolTip": "Traffic\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:58.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Traffic\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "Traffic\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:48.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CrosswalkViewModel.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewModels\\CrosswalkViewModel.cs",
+              "RelativeDocumentMoniker": "Traffic\\ViewModels\\CrosswalkViewModel.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewModels\\CrosswalkViewModel.cs",
+              "RelativeToolTip": "Traffic\\ViewModels\\CrosswalkViewModel.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwFoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:35.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrafficLightState.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\TrafficLightState.cs",
+              "RelativeDocumentMoniker": "Traffic\\Models\\TrafficLightState.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\TrafficLightState.cs",
+              "RelativeToolTip": "Traffic\\Models\\TrafficLightState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:33.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrafficLight.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\TrafficLight.cs",
+              "RelativeDocumentMoniker": "Traffic\\Models\\TrafficLight.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\TrafficLight.cs",
+              "RelativeToolTip": "Traffic\\Models\\TrafficLight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:32.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pedestrian.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\Pedestrian.cs",
+              "RelativeDocumentMoniker": "Traffic\\Models\\Pedestrian.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\Pedestrian.cs",
+              "RelativeToolTip": "Traffic\\Models\\Pedestrian.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:30.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Traffic\\Views\\MainWindow.axaml",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Traffic\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-16T11:17:06.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmergencyService.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\IEmergencyService.cs",
+              "RelativeDocumentMoniker": "Traffic\\Models\\IEmergencyService.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\IEmergencyService.cs",
+              "RelativeToolTip": "Traffic\\Models\\IEmergencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:29.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Traffic\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Traffic\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:17:04.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmergencyService.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\EmergencyService.cs",
+              "RelativeDocumentMoniker": "Traffic\\Models\\EmergencyService.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\EmergencyService.cs",
+              "RelativeToolTip": "Traffic\\Models\\EmergencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:27.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CrosswalkModel.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\CrosswalkModel.cs",
+              "RelativeDocumentMoniker": "Traffic\\Models\\CrosswalkModel.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\CrosswalkModel.cs",
+              "RelativeToolTip": "Traffic\\Models\\CrosswalkModel.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAgwIsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:16.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Traffic\\Models\\Car.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Models\\Car.cs",
+              "RelativeToolTip": "Traffic\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:13.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TrafficLightStateToBrushConverter.cs",
+              "DocumentMoniker": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Converters\\TrafficLightStateToBrushConverter.cs",
+              "RelativeDocumentMoniker": "Traffic\\Converters\\TrafficLightStateToBrushConverter.cs",
+              "ToolTip": "D:\\tasks\\cSharp\\Traffic\\Traffic\\Converters\\TrafficLightStateToBrushConverter.cs",
+              "RelativeToolTip": "Traffic\\Converters\\TrafficLightStateToBrushConverter.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:06:08.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

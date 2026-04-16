@@ -1,0 +1,149 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Traffic.ViewModels"
+        xmlns:conv="clr-namespace:Traffic.Converters"
+        xmlns:models="using:Traffic.Models"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Traffic.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Traffic">
+    <Window.Resources>
+        <conv:TrafficLightStateToBrushConverter x:Key="TrafficLightToBrush"/>
+    </Window.Resources>
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <Grid RowDefinitions="Auto,*">
+        <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Center">
+            <Button Content="Добавить переход" Command="{Binding AddCrosswalkCommand}"/>
+            <TextBlock Text="{Binding Crosswalks.Count, StringFormat=Переходов: {0}}" Margin="12,0,0,0" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1">
+            <ItemsControl ItemsSource="{Binding Crosswalks}" Margin="6">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="vm:CrosswalkViewModel">
+                        <Border BorderBrush="#707070" BorderThickness="1" Margin="4" Padding="10">
+                            <StackPanel Spacing="8">
+                                <TextBlock Text="{Binding StatusText}" FontWeight="Bold"/>
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <Ellipse Width="18"
+                                             Height="18"
+                                             Fill="{Binding TrafficLightState, Converter={StaticResource TrafficLightToBrush}}"/>
+                                    <TextBlock Text="{Binding TrafficLightState}" VerticalAlignment="Center"/>
+                                    <TextBlock Text="{Binding EmergencyActiveText}" VerticalAlignment="Center"/>
+                                </StackPanel>
+
+                                <Canvas Width="{Binding CanvasWidth}" Height="{Binding CanvasHeight}" Background="#D9E9D0">
+                                    <Rectangle Width="{Binding CanvasWidth}" Height="74" Fill="#545454"
+                                               Canvas.Left="0" Canvas.Top="52"/>
+                                    <Rectangle Width="{Binding CanvasWidth}" Height="4" Fill="#F6F2A5"
+                                               Canvas.Left="0" Canvas.Top="87"/>
+
+                                    <Rectangle Width="12" Height="74" Fill="White" Canvas.Left="346" Canvas.Top="52"/>
+                                    <Rectangle Width="12" Height="74" Fill="White" Canvas.Left="366" Canvas.Top="52"/>
+                                    <Rectangle Width="12" Height="74" Fill="White" Canvas.Left="386" Canvas.Top="52"/>
+                                    <Rectangle Width="12" Height="74" Fill="White" Canvas.Left="406" Canvas.Top="52"/>
+
+                                    <Rectangle Width="6" Height="50" Fill="#3D3D3D" Canvas.Left="330" Canvas.Top="2"/>
+                                    <Ellipse Width="16" Height="16"
+                                             Fill="{Binding TrafficLightState, Converter={StaticResource TrafficLightToBrush}}"
+                                             Canvas.Left="325" Canvas.Top="12"/>
+
+                                    <ItemsControl ItemsSource="{Binding Cars}">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <Canvas Width="{Binding CanvasWidth}" Height="{Binding CanvasHeight}" />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate x:DataType="models:Car">
+                                                <Border Width="48" Height="20" CornerRadius="4" Background="#2F7DE1">
+                                                    <Border.RenderTransform>
+                                                        <TranslateTransform X="{Binding PositionX}" Y="{Binding PositionY}"/>
+                                                    </Border.RenderTransform>
+                                                    <Grid ColumnDefinitions="*,Auto,Auto" Margin="4,3">
+                                                        <Rectangle Width="24" Height="8" Fill="#85B5FF" VerticalAlignment="Center"/>
+                                                        <Ellipse Width="6" Height="6" Fill="#202020" Grid.Column="1" Margin="4,9,0,0"/>
+                                                        <Ellipse Width="6" Height="6" Fill="#202020" Grid.Column="2" Margin="4,9,0,0"/>
+                                                    </Grid>
+                                                </Border>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                    <ItemsControl ItemsSource="{Binding EmergencyCars}">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <Canvas Width="{Binding CanvasWidth}" Height="{Binding CanvasHeight}" />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate x:DataType="models:Car">
+                                                <Border Width="58" Height="24" CornerRadius="4" Background="#E45D47">
+                                                    <Border.RenderTransform>
+                                                        <TranslateTransform X="{Binding PositionX}" Y="{Binding PositionY}"/>
+                                                    </Border.RenderTransform>
+                                                    <Grid ColumnDefinitions="*,Auto" Margin="5,4">
+                                                        <Rectangle Width="28" Height="10" Fill="#FFD8D1" VerticalAlignment="Center"/>
+                                                        <TextBlock Text="+"
+                                                                   FontSize="18"
+                                                                   FontWeight="Bold"
+                                                                   Foreground="White"
+                                                                   Grid.Column="1"
+                                                                   VerticalAlignment="Center"/>
+                                                    </Grid>
+                                                </Border>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                    <ItemsControl ItemsSource="{Binding Pedestrians}">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <Canvas Width="{Binding CanvasWidth}" Height="{Binding CanvasHeight}" />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate x:DataType="models:Pedestrian">
+                                                <StackPanel Spacing="1">
+                                                    <StackPanel.RenderTransform>
+                                                        <TranslateTransform X="{Binding PositionX}" Y="{Binding PositionY}"/>
+                                                    </StackPanel.RenderTransform>
+                                                    <Ellipse Width="10" Height="10" Fill="#2FA34A"/>
+                                                    <Rectangle Width="6" Height="14" Fill="#2FA34A" HorizontalAlignment="Center"/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+
+                                    <Border Width="70"
+                                            Height="24"
+                                            Background="#B52222"
+                                            CornerRadius="6"
+                                            IsVisible="{Binding IsAccidentActive}"
+                                            Canvas.Left="334"
+                                            Canvas.Top="126">
+                                        <TextBlock Text="ДТП"
+                                                   Foreground="White"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"
+                                                   FontWeight="Bold"/>
+                                    </Border>
+                                </Canvas>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
+
+</Window>

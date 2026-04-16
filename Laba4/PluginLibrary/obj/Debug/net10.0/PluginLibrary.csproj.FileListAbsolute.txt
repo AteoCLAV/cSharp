@@ -1,0 +1,16 @@
+D:\tasks\cSharp\Laba4\PluginLibrary\bin\Debug\net10.0\PluginLibrary.deps.json
+D:\tasks\cSharp\Laba4\PluginLibrary\bin\Debug\net10.0\PluginLibrary.dll
+D:\tasks\cSharp\Laba4\PluginLibrary\bin\Debug\net10.0\PluginLibrary.pdb
+D:\tasks\cSharp\Laba4\PluginLibrary\bin\Debug\net10.0\PluginContracts.dll
+D:\tasks\cSharp\Laba4\PluginLibrary\bin\Debug\net10.0\PluginContracts.pdb
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.csproj.AssemblyReference.cache
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.AssemblyInfoInputs.cache
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.AssemblyInfo.cs
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.csproj.CoreCompileInputs.cache
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.sourcelink.json
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLi.411EE3FD.Up2Date
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.dll
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\refint\PluginLibrary.dll
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\PluginLibrary.pdb
+D:\tasks\cSharp\Laba4\PluginLibrary\obj\Debug\net10.0\ref\PluginLibrary.dll
